@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.transept/transept",
+  "title": "Transept",
+  "description": "Translate documents with glossaries, style guides and translation memory; run and read back jobs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://transept.ai/help/connect-ai-assistant",
+  "icons": [
+    {
+      "src": "https://transept.ai/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.transept.ai/api/public/v1/mcp"
+    }
+  ]
+}
