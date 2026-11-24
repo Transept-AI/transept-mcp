@@ -3,13 +3,19 @@
   "name": "ai.transept/transept",
   "title": "Transept",
   "description": "Translate documents with glossaries, style guides and translation memory; run and read back jobs.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://transept.ai/help/connect-ai-assistant",
+  "repository": {
+    "url": "https://github.com/Transept-AI/transept-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://transept.ai/logo.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "remotes": [
